@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DominoPontaDeQuina.WebApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:23166;http://localhost:23167"
+    }
+  }
+}

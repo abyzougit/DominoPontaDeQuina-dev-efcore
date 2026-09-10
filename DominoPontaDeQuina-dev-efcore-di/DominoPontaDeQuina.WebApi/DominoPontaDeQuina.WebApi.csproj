@@ -11,5 +11,6 @@
     <ProjectReference Include="../DominoPontaDeQuina.Application/DominoPontaDeQuina.Application.csproj" />
     <ProjectReference Include="../DominoPontaDeQuina.Infrastructure/DominoPontaDeQuina.Infrastructure.csproj" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.19" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.19" />
   </ItemGroup>
 </Project>
