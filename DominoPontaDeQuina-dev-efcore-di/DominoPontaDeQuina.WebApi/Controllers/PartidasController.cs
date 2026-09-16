@@ -2,12 +2,10 @@ using DominoPontaDeQuina.Application.Services;
 using DominoPontaDeQuina.Domain.Entities;
 using DominoPontaDeQuina.WebApi.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Authorization;
 
 namespace DominoPontaDeQuina.WebApi.Controllers;
 
 [ApiController]
-[Authorize]
 [Route("api/[controller]")]
 public sealed class PartidasController(IPartidaService service) : ControllerBase
 {
